@@ -15,9 +15,7 @@ const categoryRoutes = require("./routes/category");
 const productRoutes = require("./routes/product");
 
 //DATABASE=mongodb://localhost:27017/tshirt
-//DATABASE=mongodb+srv://killer:SF4Smk9jfU6MiTy7@cluster0.biqtp.mongodb.net/<dbname>?retryWrites=true&w=majority/tshirt
-//SF4Smk9jfU6MiTy7
-//killer
+
 // DB Connection
 mongoose.connect(process.env.DATABASE, {
     useNewUrlParser: true,
